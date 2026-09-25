@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pycorons — Coffee shop cosy à Paris 14e</title>
+  <meta name="description" content="Pycorons, coffee shop cosy au 198 rue Raymond Losserand, Paris 14e : cafés, lattes, matcha, thés japonais et pâtisseries maison. Ouvert du lundi au samedi dès 8h.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Pycorons",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "198 Rue Raymond Losserand",
+      "postalCode": "75014",
+      "addressLocality": "Paris",
+      "addressCountry": "FR"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 48.8289156, "longitude": 2.3076262 },
+    "openingHours": ["Mo,We,Th,Fr 08:00-18:00", "Tu,Sa 08:00-17:00"],
+    "sameAs": ["https://www.instagram.com/pycorons.coffee.shop/"],
+    "servesCuisine": "Café",
+    "priceRange": "€"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- EN-TÊTE -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#accueil" class="logo">Pycorons</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="#ambiance">L'ambiance</a>
+        <a href="#carte">La carte</a>
+        <a href="#galerie">Photos</a>
+        <a href="#infos" class="btn btn--small">Nous trouver</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ACCUEIL -->
+  <section class="hero" id="accueil">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow">Coffee shop · Paris 14e</p>
+        <h1>Un café, une douceur,<br>et on se sent bien.</h1>
+        <p class="hero__lead">Chez Pycorons, on prend le temps. Espresso bien serré, latte onctueux, matcha ou thé japonais : installez-vous, c'est l'heure de la pause.</p>
+        <div class="hero__actions">
+          <a href="#carte" class="btn">Voir la carte</a>
+          <a href="#infos" class="btn btn--ghost">Nous trouver</a>
+        </div>
+        <a class="rating" href="https://maps.app.goo.gl/z9YtaiBNa2AN8YGJ9" target="_blank" rel="noopener">
+          <span class="rating__stars">★★★★★</span>
+          <span><strong>4,9/5</strong> sur Google · 107 avis</span>
+        </a>
+      </div>
+      <div class="hero__img">
+        <img src="HGFCHG.jpg" alt="Le comptoir en bois et la machine à café de Pycorons">
+      </div>
+    </div>
+  </section>
+
+  <!-- AMBIANCE -->
+  <section class="section ambiance" id="ambiance">
+    <div class="container ambiance__inner">
+      <div class="ambiance__img">
+        <img src="unPYCORON.jpg" alt="La vitrine de gourmandises : cakes, meringues et cookies">
+      </div>
+      <div class="ambiance__text">
+        <p class="eyebrow">L'ambiance</p>
+        <h2>Un petit coin cosy,<br>tout en bois et en vert.</h2>
+        <p>Des murs vert sauge, un comptoir en bois clair, de jolies caisses en bois aux murs et une vitrine remplie de pâtisseries maison. Au cœur du 14e, Pycorons, c'est l'endroit idéal pour une pause café seul, entre amis ou avant d'attaquer la journée.</p>
+        <ul class="features">
+          <li><span>☕</span> Cafés espresso & boissons signatures</li>
+          <li><span>🍵</span> Matcha & thés japonais</li>
+          <li><span>🍪</span> Pâtisseries faites maison</li>
+          <li><span>🌱</span> Laits végétaux disponibles</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARTE -->
+  <section class="section carte" id="carte">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">La carte</p>
+        <h2>Nos boissons</h2>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-card">
+          <h3>Cafés</h3>
+          <ul class="menu-list">
+            <li><span>Ristretto</span><span>2,80 €</span></li>
+            <li><span>Espresso</span><span>2,60 €</span></li>
+            <li><span>Macchiato</span><span>2,80 €</span></li>
+            <li><span>Double espresso</span><span>3,60 €</span></li>
+            <li><span>Allongé</span><span>2,60 €</span></li>
+            <li><span>Americano</span><span>3,60 €</span></li>
+            <li><span>Cortado</span><span>4,50 €</span></li>
+            <li><span>Cappuccino</span><span>5,00 €</span></li>
+            <li><span>Flat white</span><span>5,50 €</span></li>
+            <li><span>Mocaccino</span><span>6,00 €</span></li>
+          </ul>
+        </article>
+
+        <article class="menu-card menu-card--highlight">
+          <h3>Boissons du moment</h3>
+          <ul class="menu-list">
+            <li><span>Latte litchi</span><span>6,50 €</span></li>
+            <li><span>Latte matcha litchi</span><span>7,00 €</span></li>
+            <li><span>Coco chocolat blanc<small>Café ou matcha</small></span><span>6,50 €</span></li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <h3>Lattes & boissons chaudes</h3>
+          <ul class="menu-list">
+            <li><span>Latte</span><span>5,50 €</span></li>
+            <li><span>Latte caramel</span><span>6,50 €</span></li>
+            <li><span>Matcha latte</span><span>6,00 €</span></li>
+            <li><span>Chai latte</span><span>5,50 €</span></li>
+            <li><span>Chocolat chaud</span><span>5,50 €</span></li>
+            <li><span>Thés</span><span>4,50 €</span></li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <h3>Thés</h3>
+          <p class="menu-tags">Thé vert menthe · Chai · Earl Grey · Sakura · Rooibos</p>
+          <h3 class="menu-sub">Thés japonais</h3>
+          <p class="menu-tags">Jasmin Mao Feng · Sencha · Genmaicha · Matcha</p>
+        </article>
+
+        <article class="menu-card">
+          <h3>Boissons fraîches</h3>
+          <ul class="menu-list">
+            <li><span>Pressé du moment — orange</span><span>5,00 €</span></li>
+            <li><span>Sirop à l'eau</span><span>3,00 €</span></li>
+            <li><span>Limonade</span><span>4,00 €</span></li>
+            <li><span>Diabolo</span><span>4,50 €</span></li>
+            <li><span>Ice tea</span><span>4,50 €</span></li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <h3>Lait végétal</h3>
+          <ul class="menu-list">
+            <li><span>Amande / soja</span><span>+0,50 €</span></li>
+            <li><span>Amande / coco</span><span>+0,50 €</span></li>
+          </ul>
+          <h3 class="menu-sub">Suppléments</h3>
+          <ul class="menu-list">
+            <li><span>Extra shot</span><span>1,00 €</span></li>
+            <li><span>Sirop</span><span>1,00 €</span></li>
+            <li><span>Marshmallow</span><span>1,00 €</span></li>
+            <li><span>Miel d'acacia</span><span>0,50 €</span></li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section class="section galerie" id="galerie">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">En images</p>
+        <h2>Bienvenue chez nous</h2>
+      </div>
+      <div class="gallery">
+        <img src="HGFCHG.jpg" alt="Le comptoir de Pycorons">
+        <img src="unnamed.jpg" alt="La machine à café et les ardoises du menu">
+        <img src="unPYCORON.jpg" alt="La vitrine des gourmandises">
+      </div>
+    </div>
+  </section>
+
+  <!-- INFOS -->
+  <section class="section infos" id="infos">
+    <div class="container infos__inner">
+      <div class="infos__cards">
+        <div>
+          <p class="eyebrow">Nous trouver</p>
+          <h2>Passez nous voir !</h2>
+          <p>On vous attend pour un café, une pause ou un moment cosy.</p>
+        </div>
+        <div class="info-card">
+          <h3>Adresse</h3>
+          <p>198 Rue Raymond Losserand<br>75014 Paris</p>
+          <a class="info-link" href="https://maps.app.goo.gl/z9YtaiBNa2AN8YGJ9" target="_blank" rel="noopener">Itinéraire →</a>
+        </div>
+        <div class="info-card">
+          <h3>Horaires</h3>
+          <ul class="hours">
+            <li><span>Lundi</span><span>8h – 18h</span></li>
+            <li><span>Mardi</span><span>8h – 17h</span></li>
+            <li><span>Mercredi</span><span>8h – 18h</span></li>
+            <li><span>Jeudi</span><span>8h – 18h</span></li>
+            <li><span>Vendredi</span><span>8h – 18h</span></li>
+            <li><span>Samedi</span><span>8h – 17h</span></li>
+            <li><span>Dimanche</span><span>Fermé</span></li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>Instagram</h3>
+          <p>Nouveautés, boissons du moment et coulisses.</p>
+          <a class="info-link" href="https://www.instagram.com/pycorons.coffee.shop/" target="_blank" rel="noopener">@pycorons.coffee.shop →</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://maps.google.com/maps?q=Pycorons,+198+Rue+Raymond+Losserand,+75014+Paris&z=16&output=embed"
+          title="Carte : Pycorons, 198 Rue Raymond Losserand, Paris"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="logo logo--light">Pycorons</span>
+      <p>198 Rue Raymond Losserand, 75014 Paris</p>
+      <a href="https://www.instagram.com/pycorons.coffee.shop/" target="_blank" rel="noopener">Instagram</a>
+      <p>© <span id="year"></span> Pycorons</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
